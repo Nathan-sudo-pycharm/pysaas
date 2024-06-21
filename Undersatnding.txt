@@ -3,6 +3,8 @@ pip freeze
 django-admin  startproject nathan .
 python manage.py runserver 3000
 
+using docker to make deployment ready code 
+
 
 
 
