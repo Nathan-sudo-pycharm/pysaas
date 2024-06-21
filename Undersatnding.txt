@@ -16,6 +16,6 @@ watchPatterns = [
     "railway.toml",
     "Dockerfile",
 ]
-
 states tht the docker must watch for those files , if there are changes in those files then " BUILD " the file/folder again.
 
+Docker destroys the old container , build a new one and then deploy the code . That is  why we see in Railway it says " Building " and then " Deploysing " and not " Deploying " right away. 
